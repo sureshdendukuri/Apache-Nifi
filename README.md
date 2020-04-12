@@ -1,2 +1,2 @@
 # Apache-Nifi
-Sharing ideas for apache nifi
+Sharing ideas of apache nifi
