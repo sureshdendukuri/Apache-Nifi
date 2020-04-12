@@ -1,0 +1,13 @@
+//*This java script is used for working on limitaion for using Getmongo processor*//
+  Below script is helper script for getting documents from mongodb greater then given date*//
+  Run these script on mongo console and use reference in GetmongoProcessor *//
+  
+1)   db.system.js.save({
+    "_id": "lastFiveMinutes",
+    "value": function() {
+        return new Date("2020-01-01").toISOString();
+    }
+});
+
+2) db.loadServerScripts();
+
